@@ -40,9 +40,11 @@
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
                 android:hint="@string/searchInputText_hint"
+                android:textColorHint="#757575"
                 android:imeOptions="actionSearch"
                 android:inputType="text"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
